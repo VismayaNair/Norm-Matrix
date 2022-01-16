@@ -17,6 +17,9 @@ Program to find 2-norm of a matrix.
 Developed by: Vismaya. s
 RegisterNumber:21002841
 '''
+
+
+
 import numpy as np
 n=np.array(eval(input()))
 ans=np.linalg.norm(n,2)
@@ -31,7 +34,7 @@ print(b)
 ```
 ## Sample Input and Output:
 ![norm1](./input.jpg)
-![github](norm.png)
+![github](normof.png)
 
 ## Result
 Thus the program for 2-norm of a matrix is written and verified.
